@@ -2,8 +2,8 @@
   {
     "code": "+1",
     "countries": [
-      "US",
-      "CA"
+      "CA",
+      "US"
     ]
   },
   {
@@ -19,15 +19,153 @@
     ]
   },
   {
+    "code": "+1242",
+    "countries": [
+      "BS"
+    ]
+  },
+  {
+    "code": "+1246",
+    "countries": [
+      "BB"
+    ]
+  },
+  {
+    "code": "+1264",
+    "countries": [
+      "AI"
+    ]
+  },
+  {
+    "code": "+1268",
+    "countries": [
+      "AG"
+    ]
+  },
+  {
+    "code": "+1284",
+    "countries": [
+      "VG"
+    ]
+  },
+  {
+    "code": "+1340",
+    "countries": [
+      "VI"
+    ]
+  },
+  {
+    "code": "+1345",
+    "countries": [
+      "KY"
+    ]
+  },
+  {
+    "code": "+1441",
+    "countries": [
+      "BM"
+    ]
+  },
+  {
+    "code": "+1473",
+    "countries": [
+      "GD"
+    ]
+  },
+  {
+    "code": "+1649",
+    "countries": [
+      "TC"
+    ]
+  },
+  {
+    "code": "+1664",
+    "countries": [
+      "MS"
+    ]
+  },
+  {
+    "code": "+1670",
+    "countries": [
+      "MP"
+    ]
+  },
+  {
+    "code": "+1671",
+    "countries": [
+      "GU"
+    ]
+  },
+  {
+    "code": "+1684",
+    "countries": [
+      "AS"
+    ]
+  },
+  {
+    "code": "+1721",
+    "countries": [
+      "SX"
+    ]
+  },
+  {
+    "code": "+1758",
+    "countries": [
+      "LC"
+    ]
+  },
+  {
+    "code": "+1767",
+    "countries": [
+      "DM"
+    ]
+  },
+  {
+    "code": "+1784",
+    "countries": [
+      "VC"
+    ]
+  },
+  {
+    "code": "+1787",
+    "countries": [
+      "PR"
+    ]
+  },
+  {
+    "code": "+1868",
+    "countries": [
+      "TT"
+    ]
+  },
+  {
+    "code": "+1869",
+    "countries": [
+      "KN"
+    ]
+  },
+  {
     "code": "+20",
     "countries": [
       "EG"
     ]
   },
   {
+    "code": "+211",
+    "countries": [
+      "SS"
+    ]
+  },
+  {
     "code": "+212",
     "countries": [
       "MA"
+    ]
+  },
+  {
+    "code": "+2125288",
+    "countries": [
+      "EH"
     ]
   },
   {
@@ -43,6 +181,90 @@
     ]
   },
   {
+    "code": "+218",
+    "countries": [
+      "LY"
+    ]
+  },
+  {
+    "code": "+220",
+    "countries": [
+      "GM"
+    ]
+  },
+  {
+    "code": "+221",
+    "countries": [
+      "SN"
+    ]
+  },
+  {
+    "code": "+222",
+    "countries": [
+      "MR"
+    ]
+  },
+  {
+    "code": "+223",
+    "countries": [
+      "ML"
+    ]
+  },
+  {
+    "code": "+224",
+    "countries": [
+      "GN"
+    ]
+  },
+  {
+    "code": "+225",
+    "countries": [
+      "CI"
+    ]
+  },
+  {
+    "code": "+226",
+    "countries": [
+      "BF"
+    ]
+  },
+  {
+    "code": "+227",
+    "countries": [
+      "NE"
+    ]
+  },
+  {
+    "code": "+228",
+    "countries": [
+      "TG"
+    ]
+  },
+  {
+    "code": "+229",
+    "countries": [
+      "BJ"
+    ]
+  },
+  {
+    "code": "+230",
+    "countries": [
+      "MU"
+    ]
+  },
+  {
+    "code": "+231",
+    "countries": [
+      "LR"
+    ]
+  },
+  {
+    "code": "+232",
+    "countries": [
+      "SL"
+    ]
+  },
+  {
     "code": "+233",
     "countries": [
       "GH"
@@ -55,9 +277,111 @@
     ]
   },
   {
+    "code": "+235",
+    "countries": [
+      "TD"
+    ]
+  },
+  {
+    "code": "+236",
+    "countries": [
+      "CF"
+    ]
+  },
+  {
+    "code": "+237",
+    "countries": [
+      "CM"
+    ]
+  },
+  {
+    "code": "+238",
+    "countries": [
+      "CV"
+    ]
+  },
+  {
+    "code": "+239",
+    "countries": [
+      "ST"
+    ]
+  },
+  {
+    "code": "+240",
+    "countries": [
+      "GQ"
+    ]
+  },
+  {
+    "code": "+241",
+    "countries": [
+      "GA"
+    ]
+  },
+  {
+    "code": "+242",
+    "countries": [
+      "CG"
+    ]
+  },
+  {
+    "code": "+243",
+    "countries": [
+      "CD"
+    ]
+  },
+  {
+    "code": "+244",
+    "countries": [
+      "AO"
+    ]
+  },
+  {
+    "code": "+245",
+    "countries": [
+      "GW"
+    ]
+  },
+  {
+    "code": "+246",
+    "countries": [
+      "IO"
+    ]
+  },
+  {
+    "code": "+248",
+    "countries": [
+      "SC"
+    ]
+  },
+  {
+    "code": "+249",
+    "countries": [
+      "SD"
+    ]
+  },
+  {
+    "code": "+250",
+    "countries": [
+      "RW"
+    ]
+  },
+  {
     "code": "+251",
     "countries": [
       "ET"
+    ]
+  },
+  {
+    "code": "+252",
+    "countries": [
+      "SO"
+    ]
+  },
+  {
+    "code": "+253",
+    "countries": [
+      "DJ"
     ]
   },
   {
@@ -79,9 +403,114 @@
     ]
   },
   {
+    "code": "+257",
+    "countries": [
+      "BI"
+    ]
+  },
+  {
+    "code": "+258",
+    "countries": [
+      "MZ"
+    ]
+  },
+  {
+    "code": "+260",
+    "countries": [
+      "ZM"
+    ]
+  },
+  {
+    "code": "+261",
+    "countries": [
+      "MG"
+    ]
+  },
+  {
+    "code": "+262",
+    "countries": [
+      "TF",
+      "YT",
+      "RE"
+    ]
+  },
+  {
+    "code": "+263",
+    "countries": [
+      "ZW"
+    ]
+  },
+  {
+    "code": "+264",
+    "countries": [
+      "NA"
+    ]
+  },
+  {
+    "code": "+265",
+    "countries": [
+      "MW"
+    ]
+  },
+  {
+    "code": "+266",
+    "countries": [
+      "LS"
+    ]
+  },
+  {
+    "code": "+267",
+    "countries": [
+      "BW"
+    ]
+  },
+  {
+    "code": "+268",
+    "countries": [
+      "SZ",
+      "UM"
+    ]
+  },
+  {
+    "code": "+269",
+    "countries": [
+      "KM"
+    ]
+  },
+  {
     "code": "+27",
     "countries": [
       "ZA"
+    ]
+  },
+  {
+    "code": "+290",
+    "countries": [
+      "SH"
+    ]
+  },
+  {
+    "code": "+291",
+    "countries": [
+      "ER"
+    ]
+  },
+  {
+    "code": "+297",
+    "countries": [
+      "AW"
+    ]
+  },
+  {
+    "code": "+298",
+    "countries": [
+      "FO"
+    ]
+  },
+  {
+    "code": "+299",
+    "countries": [
+      "GL"
     ]
   },
   {
@@ -115,6 +544,12 @@
     ]
   },
   {
+    "code": "+350",
+    "countries": [
+      "GI"
+    ]
+  },
+  {
     "code": "+351",
     "countries": [
       "PT"
@@ -139,9 +574,33 @@
     ]
   },
   {
+    "code": "+355",
+    "countries": [
+      "AL"
+    ]
+  },
+  {
+    "code": "+356",
+    "countries": [
+      "MT"
+    ]
+  },
+  {
+    "code": "+357",
+    "countries": [
+      "CY"
+    ]
+  },
+  {
     "code": "+358",
     "countries": [
       "FI"
+    ]
+  },
+  {
+    "code": "+35818",
+    "countries": [
+      "AX"
     ]
   },
   {
@@ -175,6 +634,42 @@
     ]
   },
   {
+    "code": "+373",
+    "countries": [
+      "MD"
+    ]
+  },
+  {
+    "code": "+374",
+    "countries": [
+      "AM"
+    ]
+  },
+  {
+    "code": "+375",
+    "countries": [
+      "BY"
+    ]
+  },
+  {
+    "code": "+376",
+    "countries": [
+      "AD"
+    ]
+  },
+  {
+    "code": "+377",
+    "countries": [
+      "MC"
+    ]
+  },
+  {
+    "code": "+378",
+    "countries": [
+      "SM"
+    ]
+  },
+  {
     "code": "+380",
     "countries": [
       "UA"
@@ -187,15 +682,51 @@
     ]
   },
   {
+    "code": "+382",
+    "countries": [
+      "ME"
+    ]
+  },
+  {
+    "code": "+383",
+    "countries": [
+      "XK"
+    ]
+  },
+  {
     "code": "+385",
     "countries": [
       "HR"
     ]
   },
   {
+    "code": "+386",
+    "countries": [
+      "SI"
+    ]
+  },
+  {
+    "code": "+387",
+    "countries": [
+      "BA"
+    ]
+  },
+  {
+    "code": "+389",
+    "countries": [
+      "MK"
+    ]
+  },
+  {
     "code": "+39",
     "countries": [
       "IT"
+    ]
+  },
+  {
+    "code": "+3906698",
+    "countries": [
+      "VA"
     ]
   },
   {
@@ -223,6 +754,12 @@
     ]
   },
   {
+    "code": "+423",
+    "countries": [
+      "LI"
+    ]
+  },
+  {
     "code": "+43",
     "countries": [
       "AT"
@@ -231,6 +768,9 @@
   {
     "code": "+44",
     "countries": [
+      "GG",
+      "IM",
+      "JE",
       "GB"
     ]
   },
@@ -249,7 +789,14 @@
   {
     "code": "+47",
     "countries": [
+      "BV",
       "NO"
+    ]
+  },
+  {
+    "code": "+4779",
+    "countries": [
+      "SJ"
     ]
   },
   {
@@ -265,9 +812,40 @@
     ]
   },
   {
+    "code": "+500",
+    "countries": [
+      "FK",
+      "GS"
+    ]
+  },
+  {
+    "code": "+501",
+    "countries": [
+      "BZ"
+    ]
+  },
+  {
     "code": "+502",
     "countries": [
       "GT"
+    ]
+  },
+  {
+    "code": "+503",
+    "countries": [
+      "SV"
+    ]
+  },
+  {
+    "code": "+504",
+    "countries": [
+      "HN"
+    ]
+  },
+  {
+    "code": "+505",
+    "countries": [
+      "NI"
     ]
   },
   {
@@ -283,6 +861,18 @@
     ]
   },
   {
+    "code": "+508",
+    "countries": [
+      "PM"
+    ]
+  },
+  {
+    "code": "+509",
+    "countries": [
+      "HT"
+    ]
+  },
+  {
     "code": "+51",
     "countries": [
       "PE"
@@ -292,6 +882,12 @@
     "code": "+52",
     "countries": [
       "MX"
+    ]
+  },
+  {
+    "code": "+53",
+    "countries": [
+      "CU"
     ]
   },
   {
@@ -325,15 +921,66 @@
     ]
   },
   {
+    "code": "+590",
+    "countries": [
+      "GP",
+      "BL",
+      "MF"
+    ]
+  },
+  {
+    "code": "+591",
+    "countries": [
+      "BO"
+    ]
+  },
+  {
+    "code": "+592",
+    "countries": [
+      "GY"
+    ]
+  },
+  {
     "code": "+593",
     "countries": [
       "EC"
     ]
   },
   {
+    "code": "+594",
+    "countries": [
+      "GF"
+    ]
+  },
+  {
+    "code": "+595",
+    "countries": [
+      "PY"
+    ]
+  },
+  {
+    "code": "+596",
+    "countries": [
+      "MQ"
+    ]
+  },
+  {
+    "code": "+597",
+    "countries": [
+      "SR"
+    ]
+  },
+  {
     "code": "+598",
     "countries": [
       "UY"
+    ]
+  },
+  {
+    "code": "+599",
+    "countries": [
+      "BQ",
+      "CW"
     ]
   },
   {
@@ -345,7 +992,9 @@
   {
     "code": "+61",
     "countries": [
-      "AU"
+      "AU",
+      "CX",
+      "CC"
     ]
   },
   {
@@ -363,7 +1012,8 @@
   {
     "code": "+64",
     "countries": [
-      "NZ"
+      "NZ",
+      "PN"
     ]
   },
   {
@@ -379,9 +1029,141 @@
     ]
   },
   {
+    "code": "+670",
+    "countries": [
+      "TL"
+    ]
+  },
+  {
+    "code": "+672",
+    "countries": [
+      "NF"
+    ]
+  },
+  {
+    "code": "+673",
+    "countries": [
+      "BN"
+    ]
+  },
+  {
+    "code": "+674",
+    "countries": [
+      "NR"
+    ]
+  },
+  {
+    "code": "+675",
+    "countries": [
+      "PG"
+    ]
+  },
+  {
+    "code": "+676",
+    "countries": [
+      "TO"
+    ]
+  },
+  {
+    "code": "+677",
+    "countries": [
+      "SB"
+    ]
+  },
+  {
+    "code": "+678",
+    "countries": [
+      "VU"
+    ]
+  },
+  {
+    "code": "+679",
+    "countries": [
+      "FJ"
+    ]
+  },
+  {
+    "code": "+680",
+    "countries": [
+      "PW"
+    ]
+  },
+  {
+    "code": "+681",
+    "countries": [
+      "WF"
+    ]
+  },
+  {
+    "code": "+682",
+    "countries": [
+      "CK"
+    ]
+  },
+  {
+    "code": "+683",
+    "countries": [
+      "NU"
+    ]
+  },
+  {
+    "code": "+685",
+    "countries": [
+      "WS"
+    ]
+  },
+  {
+    "code": "+686",
+    "countries": [
+      "KI"
+    ]
+  },
+  {
+    "code": "+687",
+    "countries": [
+      "NC"
+    ]
+  },
+  {
+    "code": "+688",
+    "countries": [
+      "TV"
+    ]
+  },
+  {
+    "code": "+689",
+    "countries": [
+      "PF"
+    ]
+  },
+  {
+    "code": "+690",
+    "countries": [
+      "TK"
+    ]
+  },
+  {
+    "code": "+691",
+    "countries": [
+      "FM"
+    ]
+  },
+  {
+    "code": "+692",
+    "countries": [
+      "MH"
+    ]
+  },
+  {
     "code": "+7",
     "countries": [
       "RU"
+    ]
+  },
+  {
+    "code": "+76",
+    "countries": [
+      "KZ"
     ]
   },
   {
@@ -403,9 +1185,21 @@
     ]
   },
   {
+    "code": "+850",
+    "countries": [
+      "KP"
+    ]
+  },
+  {
     "code": "+852",
     "countries": [
       "HK"
+    ]
+  },
+  {
+    "code": "+853",
+    "countries": [
+      "MO"
     ]
   },
   {
@@ -457,6 +1251,12 @@
     ]
   },
   {
+    "code": "+93",
+    "countries": [
+      "AF"
+    ]
+  },
+  {
     "code": "+94",
     "countries": [
       "LK"
@@ -466,6 +1266,12 @@
     "code": "+95",
     "countries": [
       "MM"
+    ]
+  },
+  {
+    "code": "+960",
+    "countries": [
+      "MV"
     ]
   },
   {
@@ -481,6 +1287,18 @@
     ]
   },
   {
+    "code": "+963",
+    "countries": [
+      "SY"
+    ]
+  },
+  {
+    "code": "+964",
+    "countries": [
+      "IQ"
+    ]
+  },
+  {
     "code": "+965",
     "countries": [
       "KW"
@@ -493,9 +1311,21 @@
     ]
   },
   {
+    "code": "+967",
+    "countries": [
+      "YE"
+    ]
+  },
+  {
     "code": "+968",
     "countries": [
       "OM"
+    ]
+  },
+  {
+    "code": "+970",
+    "countries": [
+      "PS"
     ]
   },
   {
@@ -523,9 +1353,63 @@
     ]
   },
   {
+    "code": "+975",
+    "countries": [
+      "BT"
+    ]
+  },
+  {
+    "code": "+976",
+    "countries": [
+      "MN"
+    ]
+  },
+  {
     "code": "+977",
     "countries": [
       "NP"
+    ]
+  },
+  {
+    "code": "+98",
+    "countries": [
+      "IR"
+    ]
+  },
+  {
+    "code": "+992",
+    "countries": [
+      "TJ"
+    ]
+  },
+  {
+    "code": "+993",
+    "countries": [
+      "TM"
+    ]
+  },
+  {
+    "code": "+994",
+    "countries": [
+      "AZ"
+    ]
+  },
+  {
+    "code": "+995",
+    "countries": [
+      "GE"
+    ]
+  },
+  {
+    "code": "+996",
+    "countries": [
+      "KG"
+    ]
+  },
+  {
+    "code": "+998",
+    "countries": [
+      "UZ"
     ]
   }
 ]

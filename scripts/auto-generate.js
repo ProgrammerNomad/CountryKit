@@ -9,6 +9,9 @@ const countries = JSON.parse(fs.readFileSync('./data/countries.json', 'utf8'));
 console.log('--- Generating dial-codes.json ---');
 const dialCodesMap = {};
 countries.forEach(country => {
+  // Skip countries without calling codes (e.g. Antarctica)
+  if (!country.calling_code || country.calling_code === '') return;
+  
   if (!dialCodesMap[country.calling_code]) {
     dialCodesMap[country.calling_code] = [];
   }
@@ -21,7 +24,7 @@ const dialCodes = Object.keys(dialCodesMap).sort().map(code => ({
 }));
 
 fs.writeFileSync('./data/dial-codes.json', JSON.stringify(dialCodes, null, 2));
-console.log(`✓ Generated dial-codes.json with ${dialCodes.length} dial codes`);
+console.log(`[OK] Generated dial-codes.json with ${dialCodes.length} dial codes`);
 
 // 2. Generate currencies.json
 console.log('\n--- Generating currencies.json ---');
@@ -44,7 +47,7 @@ countries.forEach(country => {
 
 const currencies = Object.values(currenciesMap).sort((a, b) => a.code.localeCompare(b.code));
 fs.writeFileSync('./data/currencies.json', JSON.stringify(currencies, null, 2));
-console.log(`✓ Generated currencies.json with ${currencies.length} currencies`);
+console.log(`[OK] Generated currencies.json with ${currencies.length} currencies`);
 
 // 3. Generate languages.json
 console.log('\n--- Generating languages.json ---');
@@ -66,7 +69,7 @@ countries.forEach(country => {
 
 const languages = Object.values(languagesMap).sort((a, b) => a.code.localeCompare(b.code));
 fs.writeFileSync('./data/languages.json', JSON.stringify(languages, null, 2));
-console.log(`✓ Generated languages.json with ${languages.length} languages`);
+console.log(`[OK] Generated languages.json with ${languages.length} languages`);
 
 // 4. Generate minified version
 console.log('\n--- Generating countries.min.json ---');
@@ -74,7 +77,7 @@ fs.writeFileSync('./data/countries.min.json', JSON.stringify(countries));
 const originalSize = fs.statSync('./data/countries.json').size;
 const minifiedSize = fs.statSync('./data/countries.min.json').size;
 const savings = ((1 - minifiedSize / originalSize) * 100).toFixed(1);
-console.log(`✓ Generated countries.min.json (${savings}% smaller)`);
+console.log(`[OK] Generated countries.min.json (${savings}% smaller)`);
 
 // 5. Generate lookup maps
 console.log('\n--- Generating lookup maps ---');
@@ -84,14 +87,14 @@ countries.forEach(country => {
   byCca2[country.cca2] = country;
 });
 fs.writeFileSync('./data/countries_by_cca2.json', JSON.stringify(byCca2, null, 2));
-console.log(`✓ Generated countries_by_cca2.json`);
+console.log(`[OK] Generated countries_by_cca2.json`);
 
 const byCca3 = {};
 countries.forEach(country => {
   byCca3[country.cca3] = country;
 });
 fs.writeFileSync('./data/countries_by_cca3.json', JSON.stringify(byCca3, null, 2));
-console.log(`✓ Generated countries_by_cca3.json`);
+console.log(`[OK] Generated countries_by_cca3.json`);
 
 const byCallingCode = {};
 countries.forEach(country => {
@@ -101,11 +104,11 @@ countries.forEach(country => {
   byCallingCode[country.calling_code].push(country);
 });
 fs.writeFileSync('./data/countries_by_calling_code.json', JSON.stringify(byCallingCode, null, 2));
-console.log(`✓ Generated countries_by_calling_code.json`);
+console.log(`[OK] Generated countries_by_calling_code.json`);
 
 console.log('\n=== Summary ===');
 console.log(`Countries: ${countries.length}`);
 console.log(`Dial Codes: ${dialCodes.length}`);
 console.log(`Currencies: ${currencies.length}`);
 console.log(`Languages: ${languages.length}`);
-console.log('\n✓ All files generated successfully!');
+console.log('\n[OK] All files generated successfully!');

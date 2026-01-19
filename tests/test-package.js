@@ -1,5 +1,5 @@
 // Test NPM package interface
-const countrykit = require('./packages/js/index.js');
+const countrykit = require('../packages/js/index.js');
 
 console.log('=== Testing CountryKit NPM Package ===\n');
 
@@ -54,4 +54,4 @@ console.log('\n10. Direct access to lookup maps:');
 const japan = countrykit.byCca2['JP'];
 console.log(`   ${japan.name} (${japan.native_name})`);
 
-console.log('\n✓ All NPM package tests passed!');
+console.log('\n[OK] All NPM package tests passed!');

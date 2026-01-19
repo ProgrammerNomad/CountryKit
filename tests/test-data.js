@@ -5,10 +5,10 @@ function testFile(filename, description) {
   try {
     const data = fs.readFileSync(filename, 'utf8');
     const json = JSON.parse(data);
-    console.log(`✓ ${description}: ${json.length} entries`);
+    console.log(`[OK] ${description}: ${json.length} entries`);
     return json;
   } catch (error) {
-    console.error(`✗ ${description} failed:`, error.message);
+    console.error(`[ERROR] ${description} failed:`, error.message);
     process.exit(1);
   }
 }
@@ -47,4 +47,4 @@ console.log('\n--- Test: English speaking countries ---');
 const english = languages.find(l => l.code === 'en');
 console.log(`Countries: ${english.countries.join(', ')}`);
 
-console.log('\n✓ All tests passed!');
+console.log('\n[OK] All tests passed!');

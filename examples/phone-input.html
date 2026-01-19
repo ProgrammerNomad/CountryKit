@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Input - CountryKit Example</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            border-radius: 16px;
+            padding: 40px;
+            max-width: 500px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+        .description {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+        .phone-input-group {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            color: #333;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        select, input {
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border 0.3s;
+        }
+        select:focus, input:focus {
+            outline: none;
+            border-color: #11998e;
+        }
+        select {
+            min-width: 140px;
+            background: white;
+            cursor: pointer;
+        }
+        input[type="tel"] {
+            flex: 1;
+        }
+        .result {
+            margin-top: 20px;
+            padding: 15px;
+            background: #f5f5f5;
+            border-radius: 8px;
+            display: none;
+        }
+        .result.show {
+            display: block;
+        }
+        .result-label {
+            color: #666;
+            font-size: 12px;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+        .result-value {
+            color: #11998e;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        .validation {
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+        .validation.valid {
+            background: #d4edda;
+            color: #155724;
+        }
+        .validation.invalid {
+            background: #f8d7da;
+            color: #721c24;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Phone Number Input</h1>
+        <p class="description">Enter your phone number with country code</p>
+
+        <label for="countryCode">Country Code</label>
+        <div class="phone-input-group">
+            <select id="countryCode">
+                <option value="">Select</option>
+            </select>
+            <input 
+                type="tel" 
+                id="phoneNumber" 
+                placeholder="Enter phone number"
+            >
+        </div>
+
+        <div id="result" class="result">
+            <div class="result-label">Full Phone Number</div>
+            <div class="result-value" id="fullNumber"></div>
+            <div id="validation" class="validation"></div>
+        </div>
+    </div>
+
+    <script>
+        let dialCodes = [];
+        let countriesByCallingCode = {};
+
+        // Load data
+        Promise.all([
+            fetch('../data/dial-codes.json').then(r => r.json()),
+            fetch('../data/countries_by_calling_code.json').then(r => r.json())
+        ])
+        .then(([codes, byCode]) => {
+            dialCodes = codes;
+            countriesByCallingCode = byCode;
+            populateCountryCodes();
+        })
+        .catch(error => console.error('Error loading data:', error));
+
+        function populateCountryCodes() {
+            const select = document.getElementById('countryCode');
+            
+            // Sort dial codes by calling code
+            const sorted = [...dialCodes].sort((a, b) => {
+                const numA = parseInt(a.code.replace('+', ''));
+                const numB = parseInt(b.code.replace('+', ''));
+                return numA - numB;
+            });
+
+            sorted.forEach(dialCode => {
+                const countries = countriesByCallingCode[dialCode.code] || [];
+                const countryNames = countries.map(c => c.name).join(', ');
+                const flags = countries.map(c => c.flag.emoji).join('');
+                
+                const option = document.createElement('option');
+                option.value = dialCode.code;
+                option.textContent = `${flags} ${dialCode.code} ${countryNames}`;
+                select.appendChild(option);
+            });
+
+            // Add event listeners
+            select.addEventListener('change', updateFullNumber);
+            document.getElementById('phoneNumber').addEventListener('input', updateFullNumber);
+        }
+
+        function updateFullNumber() {
+            const countryCode = document.getElementById('countryCode').value;
+            const phoneNumber = document.getElementById('phoneNumber').value;
+            const result = document.getElementById('result');
+            
+            if (countryCode && phoneNumber) {
+                const fullNumber = countryCode + phoneNumber.replace(/\D/g, '');
+                document.getElementById('fullNumber').textContent = fullNumber;
+                result.classList.add('show');
+                
+                // Basic validation
+                validatePhoneNumber(phoneNumber, countryCode);
+            } else {
+                result.classList.remove('show');
+            }
+        }
+
+        function validatePhoneNumber(number, code) {
+            const validation = document.getElementById('validation');
+            const digitsOnly = number.replace(/\D/g, '');
+            
+            // Basic validation rules (simplified)
+            if (digitsOnly.length < 7) {
+                validation.className = 'validation invalid';
+                validation.textContent = 'Phone number too short (minimum 7 digits)';
+            } else if (digitsOnly.length > 15) {
+                validation.className = 'validation invalid';
+                validation.textContent = 'Phone number too long (maximum 15 digits)';
+            } else {
+                validation.className = 'validation valid';
+                validation.textContent = 'Valid phone number format';
+            }
+        }
+    </script>
+</body>
+</html>

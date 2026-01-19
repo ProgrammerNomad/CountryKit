@@ -1,0 +1,43 @@
+{
+  "name": "countrykit/countrykit",
+  "description": "Universal country data library with ISO codes, phone codes, flags, currencies, and languages",
+  "version": "1.0.0",
+  "type": "library",
+  "keywords": [
+    "country",
+    "countries",
+    "iso",
+    "codes",
+    "phone",
+    "calling",
+    "flags",
+    "currencies",
+    "languages",
+    "data",
+    "international"
+  ],
+  "homepage": "https://github.com/ProgrammerNomad/CountryKit",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "CountryKit Contributors"
+    }
+  ],
+  "require": {
+    "php": ">=7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "CountryKit\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "CountryKit\\Tests\\": "tests/"
+    }
+  },
+  "support": {
+    "issues": "https://github.com/ProgrammerNomad/CountryKit/issues",
+    "source": "https://github.com/ProgrammerNomad/CountryKit"
+  }
+}

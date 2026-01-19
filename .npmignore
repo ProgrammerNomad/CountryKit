@@ -20,7 +20,6 @@ scripts/
 .gitlab-ci.yml
 .travis.yml
 
-# Documentation (keep README.md only)
+# Documentation
 docs/
-*.md
-!README.md
+PROJECT-STATUS.md

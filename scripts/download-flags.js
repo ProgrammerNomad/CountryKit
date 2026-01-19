@@ -23,7 +23,7 @@ function downloadFlag(country) {
     
     // Skip if already exists
     if (fs.existsSync(filePath)) {
-      console.log(`⏭  ${country.name} (${country.cca2}) - already exists`);
+      console.log(`[SKIP] ${country.name} (${country.cca2}) - already exists`);
       skipped++;
       resolve();
       return;
@@ -36,19 +36,19 @@ function downloadFlag(country) {
         response.pipe(file);
         file.on('finish', () => {
           file.close();
-          console.log(`✓ ${country.name} (${country.cca2})`);
+          console.log(`[OK] ${country.name} (${country.cca2})`);
           downloaded++;
           resolve();
         });
       } else {
         fs.unlink(filePath, () => {});
-        console.log(`✗ ${country.name} (${country.cca2}) - HTTP ${response.statusCode}`);
+        console.log(`[ERROR] ${country.name} (${country.cca2}) - HTTP ${response.statusCode}`);
         errors++;
         resolve();
       }
     }).on('error', (err) => {
       fs.unlink(filePath, () => {});
-      console.log(`✗ ${country.name} (${country.cca2}) - ${err.message}`);
+      console.log(`[ERROR] ${country.name} (${country.cca2}) - ${err.message}`);
       errors++;
       resolve();
     });
@@ -76,7 +76,7 @@ async function downloadAllFlags() {
   console.log(`Total: ${countries.length}`);
   
   if (downloaded > 0 || skipped > 0) {
-    console.log('\n✓ Flag download complete!');
+    console.log('\n[OK] Flag download complete!');
   }
 }
 

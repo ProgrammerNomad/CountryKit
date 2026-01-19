@@ -5,7 +5,7 @@ let errors = 0;
 let warnings = 0;
 
 function error(msg) {
-  console.error(`✗ ERROR: ${msg}`);
+  console.error(`[ERROR] ${msg}`);
   errors++;
 }
 
@@ -15,7 +15,7 @@ function warn(msg) {
 }
 
 function success(msg) {
-  console.log(`✓ ${msg}`);
+  console.log(`[OK] ${msg}`);
 }
 
 console.log('=== Validating CountryKit Data ===\n');
@@ -31,12 +31,19 @@ console.log('--- Validating Countries ---');
 const seenCca2 = new Set();
 const seenCca3 = new Set();
 
+// Territories without calling codes (uninhabited or no phone service)
+const noCallingCodeTerritories = new Set(['AQ', 'HM', 'BV', 'TF', 'GS']); // Antarctica, Heard Island, Bouvet Island, French Southern Territories, South Georgia
+
 countries.forEach((country, index) => {
   // Check required fields
   if (!country.cca2) error(`Country at index ${index} missing cca2`);
   if (!country.cca3) error(`Country at index ${index} missing cca3`);
   if (!country.name) error(`Country at index ${index} missing name`);
-  if (!country.calling_code) error(`Country at index ${index} missing calling_code`);
+  
+  // Check calling_code (allow empty for uninhabited territories)
+  if (!country.calling_code && !noCallingCodeTerritories.has(country.cca2)) {
+    error(`Country at index ${index} (${country.name}) missing calling_code`);
+  }
   
   // Check for duplicates
   if (seenCca2.has(country.cca2)) {
@@ -57,8 +64,8 @@ countries.forEach((country, index) => {
     error(`${country.name}: cca3 must be 3 characters`);
   }
   
-  // Validate calling code format
-  if (country.calling_code && !country.calling_code.startsWith('+')) {
+  // Validate calling code format (if present)
+  if (country.calling_code && country.calling_code !== '' && !country.calling_code.startsWith('+')) {
     error(`${country.name}: calling_code must start with +`);
   }
   
@@ -78,6 +85,12 @@ success(`Validated ${countries.length} countries`);
 // Validate dial codes
 console.log('\n--- Validating Dial Codes ---');
 dialCodes.forEach(dial => {
+  // Skip validation for empty codes (shouldn't exist after auto-generate fix)
+  if (!dial.code || dial.code === '') {
+    error(`Empty dial code found`);
+    return;
+  }
+  
   if (!dial.code.startsWith('+')) {
     error(`Dial code ${dial.code} must start with +`);
   }
@@ -141,12 +154,12 @@ console.log(`Errors:   ${errors}`);
 console.log(`Warnings: ${warnings}`);
 
 if (errors > 0) {
-  console.log('\n✗ Validation failed!');
+  console.log('\n[ERROR] Validation failed!');
   process.exit(1);
 } else if (warnings > 0) {
   console.log('\n⚠ Validation passed with warnings');
   process.exit(0);
 } else {
-  console.log('\n✓ All validations passed!');
+  console.log('\n[OK] All validations passed!');
   process.exit(0);
 }

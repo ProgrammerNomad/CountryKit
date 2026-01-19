@@ -5,7 +5,7 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "test": "cd ../.. && node test.js && node test-package.js",
+    "test": "cd ../.. && node tests/test-data.js && node tests/test-package.js",
     "validate": "cd ../.. && node scripts/validate.js",
     "build": "cd ../.. && node scripts/auto-generate.js"
   },
