@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4320 2880">
+  <rect fill="#012169" width="4320" height="2880"/>
+  <g fill="#FFF">
+    <path d="M0,0 L4320,2880 M4320,0 L0,2880" stroke="#FFF" stroke-width="480"/>
+  </g>
+  <g fill="#C8102E">
+    <path d="M0,0 L4320,2880 M4320,0 L0,2880" stroke="#C8102E" stroke-width="320"/>
+  </g>
+  <g fill="#FFF">
+    <path d="M2160,0 V2880 M0,1440 H4320" stroke="#FFF" stroke-width="800"/>
+  </g>
+  <g fill="#C8102E">
+    <path d="M2160,0 V2880 M0,1440 H4320" stroke="#C8102E" stroke-width="480"/>
+  </g>
+  <g fill="#FEBB00">
+    <g id="star" transform="translate(540,360)">
+      <path d="M 0,-200 L 58.778,-61.803 L 190.211,-61.803 L 87.939,14.098 L 116.939,152.902 L 0,76.393 L -116.939,152.902 L -87.939,14.098 L -190.211,-61.803 L -58.778,-61.803 Z"/>
+    </g>
+    <use href="#star" transform="translate(3240,0)"/>
+    <use href="#star" transform="translate(0,1800)"/>
+    <use href="#star" transform="translate(3240,1800)"/>
+    <use href="#star" transform="translate(1620,900)"/>
+    <use href="#star" transform="translate(1080,2160)"/>
+  </g>
+</svg>
