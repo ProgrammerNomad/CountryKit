@@ -1,0 +1,26 @@
+# Development & Test Files
+test.js
+test-package.js
+
+# Build Scripts
+scripts/
+
+# Git Files
+.git/
+.gitignore
+.gitattributes
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.sublime-*
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# Documentation (keep README.md only)
+docs/
+*.md
+!README.md

@@ -1,0 +1,2652 @@
+[
+  {
+    "cca2": "IN",
+    "cca3": "IND",
+    "ccn3": "356",
+    "name": "India",
+    "native_name": "भारत",
+    "calling_code": "+91",
+    "currency": [
+      {
+        "code": "INR",
+        "name": "Indian Rupee",
+        "symbol": "₹"
+      }
+    ],
+    "languages": [
+      {
+        "code": "hi",
+        "name": "Hindi"
+      },
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "flag": {
+      "emoji": "🇮🇳",
+      "svg": "flags/IN.svg"
+    },
+    "capital": "New Delhi",
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "tld": ".in"
+  },
+  {
+    "cca2": "US",
+    "cca3": "USA",
+    "ccn3": "840",
+    "name": "United States",
+    "native_name": "United States",
+    "calling_code": "+1",
+    "currency": [
+      {
+        "code": "USD",
+        "name": "United States Dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "flag": {
+      "emoji": "🇺🇸",
+      "svg": "flags/US.svg"
+    },
+    "capital": "Washington, D.C.",
+    "region": "Americas",
+    "subregion": "Northern America",
+    "tld": ".us"
+  },
+  {
+    "cca2": "GB",
+    "cca3": "GBR",
+    "ccn3": "826",
+    "name": "United Kingdom",
+    "native_name": "United Kingdom",
+    "calling_code": "+44",
+    "currency": [
+      {
+        "code": "GBP",
+        "name": "British Pound",
+        "symbol": "£"
+      }
+    ],
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "flag": {
+      "emoji": "🇬🇧",
+      "svg": "flags/GB.svg"
+    },
+    "capital": "London",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "tld": ".uk"
+  },
+  {
+    "cca2": "CA",
+    "cca3": "CAN",
+    "ccn3": "124",
+    "name": "Canada",
+    "native_name": "Canada",
+    "calling_code": "+1",
+    "currency": [
+      {
+        "code": "CAD",
+        "name": "Canadian Dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "flag": {
+      "emoji": "🇨🇦",
+      "svg": "flags/CA.svg"
+    },
+    "capital": "Ottawa",
+    "region": "Americas",
+    "subregion": "Northern America",
+    "tld": ".ca"
+  },
+  {
+    "cca2": "AU",
+    "cca3": "AUS",
+    "ccn3": "036",
+    "name": "Australia",
+    "native_name": "Australia",
+    "calling_code": "+61",
+    "currency": [
+      {
+        "code": "AUD",
+        "name": "Australian Dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "flag": {
+      "emoji": "🇦🇺",
+      "svg": "flags/AU.svg"
+    },
+    "capital": "Canberra",
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "tld": ".au"
+  },
+  {
+    "cca2": "DE",
+    "cca3": "DEU",
+    "ccn3": "276",
+    "name": "Germany",
+    "native_name": "Deutschland",
+    "calling_code": "+49",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "code": "de",
+        "name": "German"
+      }
+    ],
+    "flag": {
+      "emoji": "🇩🇪",
+      "svg": "flags/DE.svg"
+    },
+    "capital": "Berlin",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "tld": ".de"
+  },
+  {
+    "cca2": "FR",
+    "cca3": "FRA",
+    "ccn3": "250",
+    "name": "France",
+    "native_name": "France",
+    "calling_code": "+33",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "flag": {
+      "emoji": "🇫🇷",
+      "svg": "flags/FR.svg"
+    },
+    "capital": "Paris",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "tld": ".fr"
+  },
+  {
+    "cca2": "ES",
+    "cca3": "ESP",
+    "ccn3": "724",
+    "name": "Spain",
+    "native_name": "España",
+    "calling_code": "+34",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "flag": {
+      "emoji": "🇪🇸",
+      "svg": "flags/ES.svg"
+    },
+    "capital": "Madrid",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "tld": ".es"
+  },
+  {
+    "cca2": "IT",
+    "cca3": "ITA",
+    "ccn3": "380",
+    "name": "Italy",
+    "native_name": "Italia",
+    "calling_code": "+39",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "flag": {
+      "emoji": "🇮🇹",
+      "svg": "flags/IT.svg"
+    },
+    "capital": "Rome",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "tld": ".it"
+  },
+  {
+    "cca2": "NL",
+    "cca3": "NLD",
+    "ccn3": "528",
+    "name": "Netherlands",
+    "native_name": "Nederland",
+    "calling_code": "+31",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "code": "nl",
+        "name": "Dutch"
+      }
+    ],
+    "flag": {
+      "emoji": "🇳🇱",
+      "svg": "flags/NL.svg"
+    },
+    "capital": "Amsterdam",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "tld": ".nl"
+  },
+  {
+    "cca2": "CN",
+    "cca3": "CHN",
+    "ccn3": "156",
+    "name": "China",
+    "native_name": "中国",
+    "calling_code": "+86",
+    "currency": [
+      {
+        "code": "CNY",
+        "name": "Chinese Yuan",
+        "symbol": "¥"
+      }
+    ],
+    "languages": [
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "flag": {
+      "emoji": "🇨🇳",
+      "svg": "flags/CN.svg"
+    },
+    "capital": "Beijing",
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "tld": ".cn"
+  },
+  {
+    "cca2": "JP",
+    "cca3": "JPN",
+    "ccn3": "392",
+    "name": "Japan",
+    "native_name": "日本",
+    "calling_code": "+81",
+    "currency": [
+      {
+        "code": "JPY",
+        "name": "Japanese Yen",
+        "symbol": "¥"
+      }
+    ],
+    "languages": [
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "flag": {
+      "emoji": "🇯🇵",
+      "svg": "flags/JP.svg"
+    },
+    "capital": "Tokyo",
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "tld": ".jp"
+  },
+  {
+    "cca2": "KR",
+    "cca3": "KOR",
+    "ccn3": "410",
+    "name": "South Korea",
+    "native_name": "대한민국",
+    "calling_code": "+82",
+    "currency": [
+      {
+        "code": "KRW",
+        "name": "South Korean Won",
+        "symbol": "₩"
+      }
+    ],
+    "languages": [
+      {
+        "code": "ko",
+        "name": "Korean"
+      }
+    ],
+    "flag": {
+      "emoji": "🇰🇷",
+      "svg": "flags/KR.svg"
+    },
+    "capital": "Seoul",
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "tld": ".kr"
+  },
+  {
+    "cca2": "SG",
+    "cca3": "SGP",
+    "ccn3": "702",
+    "name": "Singapore",
+    "native_name": "Singapore",
+    "calling_code": "+65",
+    "currency": [
+      {
+        "code": "SGD",
+        "name": "Singapore Dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "flag": {
+      "emoji": "🇸🇬",
+      "svg": "flags/SG.svg"
+    },
+    "capital": "Singapore",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "tld": ".sg"
+  },
+  {
+    "cca2": "AE",
+    "cca3": "ARE",
+    "ccn3": "784",
+    "name": "United Arab Emirates",
+    "native_name": "الإمارات العربية المتحدة",
+    "calling_code": "+971",
+    "currency": [
+      {
+        "code": "AED",
+        "name": "UAE Dirham",
+        "symbol": "د.إ"
+      }
+    ],
+    "languages": [
+      {
+        "code": "ar",
+        "name": "Arabic"
+      }
+    ],
+    "flag": {
+      "emoji": "🇦🇪",
+      "svg": "flags/AE.svg"
+    },
+    "capital": "Abu Dhabi",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "tld": ".ae"
+  },
+  {
+    "cca2": "BR",
+    "cca3": "BRA",
+    "ccn3": "076",
+    "name": "Brazil",
+    "native_name": "Brasil",
+    "calling_code": "+55",
+    "currency": [
+      {
+        "code": "BRL",
+        "name": "Brazilian Real",
+        "symbol": "R$"
+      }
+    ],
+    "languages": [
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "flag": {
+      "emoji": "🇧🇷",
+      "svg": "flags/BR.svg"
+    },
+    "capital": "Brasília",
+    "region": "Americas",
+    "subregion": "South America",
+    "tld": ".br"
+  },
+  {
+    "cca2": "MX",
+    "cca3": "MEX",
+    "ccn3": "484",
+    "name": "Mexico",
+    "native_name": "México",
+    "calling_code": "+52",
+    "currency": [
+      {
+        "code": "MXN",
+        "name": "Mexican Peso",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "flag": {
+      "emoji": "🇲🇽",
+      "svg": "flags/MX.svg"
+    },
+    "capital": "Mexico City",
+    "region": "Americas",
+    "subregion": "Central America",
+    "tld": ".mx"
+  },
+  {
+    "cca2": "AR",
+    "cca3": "ARG",
+    "ccn3": "032",
+    "name": "Argentina",
+    "native_name": "Argentina",
+    "calling_code": "+54",
+    "currency": [
+      {
+        "code": "ARS",
+        "name": "Argentine Peso",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "flag": {
+      "emoji": "🇦🇷",
+      "svg": "flags/AR.svg"
+    },
+    "capital": "Buenos Aires",
+    "region": "Americas",
+    "subregion": "South America",
+    "tld": ".ar"
+  },
+  {
+    "cca2": "ZA",
+    "cca3": "ZAF",
+    "ccn3": "710",
+    "name": "South Africa",
+    "native_name": "South Africa",
+    "calling_code": "+27",
+    "currency": [
+      {
+        "code": "ZAR",
+        "name": "South African Rand",
+        "symbol": "R"
+      }
+    ],
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "af",
+        "name": "Afrikaans"
+      }
+    ],
+    "flag": {
+      "emoji": "🇿🇦",
+      "svg": "flags/ZA.svg"
+    },
+    "capital": "Pretoria",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "tld": ".za"
+  },
+  {
+    "cca2": "NG",
+    "cca3": "NGA",
+    "ccn3": "566",
+    "name": "Nigeria",
+    "native_name": "Nigeria",
+    "calling_code": "+234",
+    "currency": [
+      {
+        "code": "NGN",
+        "name": "Nigerian Naira",
+        "symbol": "₦"
+      }
+    ],
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "flag": {
+      "emoji": "🇳🇬",
+      "svg": "flags/NG.svg"
+    },
+    "capital": "Abuja",
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "tld": ".ng"
+  },
+  {
+    "cca2": "EG",
+    "cca3": "EGY",
+    "ccn3": "818",
+    "name": "Egypt",
+    "native_name": "مصر",
+    "calling_code": "+20",
+    "currency": [
+      {
+        "code": "EGP",
+        "name": "Egyptian Pound",
+        "symbol": "£"
+      }
+    ],
+    "languages": [
+      {
+        "code": "ar",
+        "name": "Arabic"
+      }
+    ],
+    "flag": {
+      "emoji": "🇪🇬",
+      "svg": "flags/EG.svg"
+    },
+    "capital": "Cairo",
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "tld": ".eg"
+  },
+  {
+    "cca2": "NZ",
+    "cca3": "NZL",
+    "ccn3": "554",
+    "name": "New Zealand",
+    "native_name": "New Zealand",
+    "calling_code": "+64",
+    "currency": [
+      {
+        "code": "NZD",
+        "name": "New Zealand Dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "flag": {
+      "emoji": "🇳🇿",
+      "svg": "flags/NZ.svg"
+    },
+    "capital": "Wellington",
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "tld": ".nz"
+  },
+  {
+    "cca2": "RU",
+    "cca3": "RUS",
+    "ccn3": "643",
+    "name": "Russia",
+    "native_name": "Россия",
+    "calling_code": "+7",
+    "currency": [
+      {
+        "code": "RUB",
+        "name": "Russian Ruble",
+        "symbol": "₽"
+      }
+    ],
+    "languages": [
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "flag": {
+      "emoji": "🇷🇺",
+      "svg": "flags/RU.svg"
+    },
+    "capital": "Moscow",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "tld": ".ru"
+  },
+  {
+    "cca2": "PL",
+    "cca3": "POL",
+    "ccn3": "616",
+    "name": "Poland",
+    "native_name": "Polska",
+    "calling_code": "+48",
+    "currency": [
+      {
+        "code": "PLN",
+        "name": "Polish Zloty",
+        "symbol": "zł"
+      }
+    ],
+    "languages": [
+      {
+        "code": "pl",
+        "name": "Polish"
+      }
+    ],
+    "flag": {
+      "emoji": "🇵🇱",
+      "svg": "flags/PL.svg"
+    },
+    "capital": "Warsaw",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "tld": ".pl"
+  },
+  {
+    "cca2": "SE",
+    "cca3": "SWE",
+    "ccn3": "752",
+    "name": "Sweden",
+    "native_name": "Sverige",
+    "calling_code": "+46",
+    "currency": [
+      {
+        "code": "SEK",
+        "name": "Swedish Krona",
+        "symbol": "kr"
+      }
+    ],
+    "languages": [
+      {
+        "code": "sv",
+        "name": "Swedish"
+      }
+    ],
+    "flag": {
+      "emoji": "🇸🇪",
+      "svg": "flags/SE.svg"
+    },
+    "capital": "Stockholm",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "tld": ".se"
+  },
+  {
+    "cca2": "NO",
+    "cca3": "NOR",
+    "ccn3": "578",
+    "name": "Norway",
+    "native_name": "Norge",
+    "calling_code": "+47",
+    "currency": [
+      {
+        "code": "NOK",
+        "name": "Norwegian Krone",
+        "symbol": "kr"
+      }
+    ],
+    "languages": [
+      {
+        "code": "no",
+        "name": "Norwegian"
+      }
+    ],
+    "flag": {
+      "emoji": "🇳🇴",
+      "svg": "flags/NO.svg"
+    },
+    "capital": "Oslo",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "tld": ".no"
+  },
+  {
+    "cca2": "DK",
+    "cca3": "DNK",
+    "ccn3": "208",
+    "name": "Denmark",
+    "native_name": "Danmark",
+    "calling_code": "+45",
+    "currency": [
+      {
+        "code": "DKK",
+        "name": "Danish Krone",
+        "symbol": "kr"
+      }
+    ],
+    "languages": [
+      {
+        "code": "da",
+        "name": "Danish"
+      }
+    ],
+    "flag": {
+      "emoji": "🇩🇰",
+      "svg": "flags/DK.svg"
+    },
+    "capital": "Copenhagen",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "tld": ".dk"
+  },
+  {
+    "cca2": "FI",
+    "cca3": "FIN",
+    "ccn3": "246",
+    "name": "Finland",
+    "native_name": "Suomi",
+    "calling_code": "+358",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "code": "fi",
+        "name": "Finnish"
+      }
+    ],
+    "flag": {
+      "emoji": "🇫🇮",
+      "svg": "flags/FI.svg"
+    },
+    "capital": "Helsinki",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "tld": ".fi"
+  },
+  {
+    "cca2": "CH",
+    "cca3": "CHE",
+    "ccn3": "756",
+    "name": "Switzerland",
+    "native_name": "Schweiz",
+    "calling_code": "+41",
+    "currency": [
+      {
+        "code": "CHF",
+        "name": "Swiss Franc",
+        "symbol": "Fr"
+      }
+    ],
+    "languages": [
+      {
+        "code": "de",
+        "name": "German"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "flag": {
+      "emoji": "🇨🇭",
+      "svg": "flags/CH.svg"
+    },
+    "capital": "Bern",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "tld": ".ch"
+  },
+  {
+    "cca2": "AT",
+    "cca3": "AUT",
+    "ccn3": "040",
+    "name": "Austria",
+    "native_name": "Österreich",
+    "calling_code": "+43",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "code": "de",
+        "name": "German"
+      }
+    ],
+    "flag": {
+      "emoji": "🇦🇹",
+      "svg": "flags/AT.svg"
+    },
+    "capital": "Vienna",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "tld": ".at"
+  },
+  {
+    "cca2": "BE",
+    "cca3": "BEL",
+    "ccn3": "056",
+    "name": "Belgium",
+    "native_name": "België",
+    "calling_code": "+32",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "code": "nl",
+        "name": "Dutch"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "flag": {
+      "emoji": "🇧🇪",
+      "svg": "flags/BE.svg"
+    },
+    "capital": "Brussels",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "tld": ".be"
+  },
+  {
+    "cca2": "PT",
+    "cca3": "PRT",
+    "ccn3": "620",
+    "name": "Portugal",
+    "native_name": "Portugal",
+    "calling_code": "+351",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "flag": {
+      "emoji": "🇵🇹",
+      "svg": "flags/PT.svg"
+    },
+    "capital": "Lisbon",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "tld": ".pt"
+  },
+  {
+    "cca2": "GR",
+    "cca3": "GRC",
+    "ccn3": "300",
+    "name": "Greece",
+    "native_name": "Ελλάδα",
+    "calling_code": "+30",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "flag": {
+      "emoji": "🇬🇷",
+      "svg": "flags/GR.svg"
+    },
+    "capital": "Athens",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "tld": ".gr"
+  },
+  {
+    "cca2": "TR",
+    "cca3": "TUR",
+    "ccn3": "792",
+    "name": "Turkey",
+    "native_name": "Türkiye",
+    "calling_code": "+90",
+    "currency": [
+      {
+        "code": "TRY",
+        "name": "Turkish Lira",
+        "symbol": "₺"
+      }
+    ],
+    "languages": [
+      {
+        "code": "tr",
+        "name": "Turkish"
+      }
+    ],
+    "flag": {
+      "emoji": "🇹🇷",
+      "svg": "flags/TR.svg"
+    },
+    "capital": "Ankara",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "tld": ".tr"
+  },
+  {
+    "cca2": "SA",
+    "cca3": "SAU",
+    "ccn3": "682",
+    "name": "Saudi Arabia",
+    "native_name": "السعودية",
+    "calling_code": "+966",
+    "currency": [
+      {
+        "code": "SAR",
+        "name": "Saudi Riyal",
+        "symbol": "﷼"
+      }
+    ],
+    "languages": [
+      {
+        "code": "ar",
+        "name": "Arabic"
+      }
+    ],
+    "flag": {
+      "emoji": "🇸🇦",
+      "svg": "flags/SA.svg"
+    },
+    "capital": "Riyadh",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "tld": ".sa"
+  },
+  {
+    "cca2": "IL",
+    "cca3": "ISR",
+    "ccn3": "376",
+    "name": "Israel",
+    "native_name": "ישראל",
+    "calling_code": "+972",
+    "currency": [
+      {
+        "code": "ILS",
+        "name": "Israeli Shekel",
+        "symbol": "₪"
+      }
+    ],
+    "languages": [
+      {
+        "code": "he",
+        "name": "Hebrew"
+      }
+    ],
+    "flag": {
+      "emoji": "🇮🇱",
+      "svg": "flags/IL.svg"
+    },
+    "capital": "Jerusalem",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "tld": ".il"
+  },
+  {
+    "cca2": "TH",
+    "cca3": "THA",
+    "ccn3": "764",
+    "name": "Thailand",
+    "native_name": "ไทย",
+    "calling_code": "+66",
+    "currency": [
+      {
+        "code": "THB",
+        "name": "Thai Baht",
+        "symbol": "฿"
+      }
+    ],
+    "languages": [
+      {
+        "code": "th",
+        "name": "Thai"
+      }
+    ],
+    "flag": {
+      "emoji": "🇹🇭",
+      "svg": "flags/TH.svg"
+    },
+    "capital": "Bangkok",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "tld": ".th"
+  },
+  {
+    "cca2": "MY",
+    "cca3": "MYS",
+    "ccn3": "458",
+    "name": "Malaysia",
+    "native_name": "Malaysia",
+    "calling_code": "+60",
+    "currency": [
+      {
+        "code": "MYR",
+        "name": "Malaysian Ringgit",
+        "symbol": "RM"
+      }
+    ],
+    "languages": [
+      {
+        "code": "ms",
+        "name": "Malay"
+      }
+    ],
+    "flag": {
+      "emoji": "🇲🇾",
+      "svg": "flags/MY.svg"
+    },
+    "capital": "Kuala Lumpur",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "tld": ".my"
+  },
+  {
+    "cca2": "ID",
+    "cca3": "IDN",
+    "ccn3": "360",
+    "name": "Indonesia",
+    "native_name": "Indonesia",
+    "calling_code": "+62",
+    "currency": [
+      {
+        "code": "IDR",
+        "name": "Indonesian Rupiah",
+        "symbol": "Rp"
+      }
+    ],
+    "languages": [
+      {
+        "code": "id",
+        "name": "Indonesian"
+      }
+    ],
+    "flag": {
+      "emoji": "🇮🇩",
+      "svg": "flags/ID.svg"
+    },
+    "capital": "Jakarta",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "tld": ".id"
+  },
+  {
+    "cca2": "PH",
+    "cca3": "PHL",
+    "ccn3": "608",
+    "name": "Philippines",
+    "native_name": "Pilipinas",
+    "calling_code": "+63",
+    "currency": [
+      {
+        "code": "PHP",
+        "name": "Philippine Peso",
+        "symbol": "₱"
+      }
+    ],
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "tl",
+        "name": "Tagalog"
+      }
+    ],
+    "flag": {
+      "emoji": "🇵🇭",
+      "svg": "flags/PH.svg"
+    },
+    "capital": "Manila",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "tld": ".ph"
+  },
+  {
+    "cca2": "VN",
+    "cca3": "VNM",
+    "ccn3": "704",
+    "name": "Vietnam",
+    "native_name": "Việt Nam",
+    "calling_code": "+84",
+    "currency": [
+      {
+        "code": "VND",
+        "name": "Vietnamese Dong",
+        "symbol": "₫"
+      }
+    ],
+    "languages": [
+      {
+        "code": "vi",
+        "name": "Vietnamese"
+      }
+    ],
+    "flag": {
+      "emoji": "🇻🇳",
+      "svg": "flags/VN.svg"
+    },
+    "capital": "Hanoi",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "tld": ".vn"
+  },
+  {
+    "cca2": "PK",
+    "cca3": "PAK",
+    "ccn3": "586",
+    "name": "Pakistan",
+    "native_name": "پاکستان",
+    "calling_code": "+92",
+    "currency": [
+      {
+        "code": "PKR",
+        "name": "Pakistani Rupee",
+        "symbol": "₨"
+      }
+    ],
+    "languages": [
+      {
+        "code": "ur",
+        "name": "Urdu"
+      },
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "flag": {
+      "emoji": "🇵🇰",
+      "svg": "flags/PK.svg"
+    },
+    "capital": "Islamabad",
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "tld": ".pk"
+  },
+  {
+    "cca2": "BD",
+    "cca3": "BGD",
+    "ccn3": "050",
+    "name": "Bangladesh",
+    "native_name": "বাংলাদেশ",
+    "calling_code": "+880",
+    "currency": [
+      {
+        "code": "BDT",
+        "name": "Bangladeshi Taka",
+        "symbol": "৳"
+      }
+    ],
+    "languages": [
+      {
+        "code": "bn",
+        "name": "Bengali"
+      }
+    ],
+    "flag": {
+      "emoji": "🇧🇩",
+      "svg": "flags/BD.svg"
+    },
+    "capital": "Dhaka",
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "tld": ".bd"
+  },
+  {
+    "cca2": "CL",
+    "cca3": "CHL",
+    "ccn3": "152",
+    "name": "Chile",
+    "native_name": "Chile",
+    "calling_code": "+56",
+    "currency": [
+      {
+        "code": "CLP",
+        "name": "Chilean Peso",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "flag": {
+      "emoji": "🇨🇱",
+      "svg": "flags/CL.svg"
+    },
+    "capital": "Santiago",
+    "region": "Americas",
+    "subregion": "South America",
+    "tld": ".cl"
+  },
+  {
+    "cca2": "CO",
+    "cca3": "COL",
+    "ccn3": "170",
+    "name": "Colombia",
+    "native_name": "Colombia",
+    "calling_code": "+57",
+    "currency": [
+      {
+        "code": "COP",
+        "name": "Colombian Peso",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "flag": {
+      "emoji": "🇨🇴",
+      "svg": "flags/CO.svg"
+    },
+    "capital": "Bogotá",
+    "region": "Americas",
+    "subregion": "South America",
+    "tld": ".co"
+  },
+  {
+    "cca2": "PE",
+    "cca3": "PER",
+    "ccn3": "604",
+    "name": "Peru",
+    "native_name": "Perú",
+    "calling_code": "+51",
+    "currency": [
+      {
+        "code": "PEN",
+        "name": "Peruvian Sol",
+        "symbol": "S/"
+      }
+    ],
+    "languages": [
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "flag": {
+      "emoji": "🇵🇪",
+      "svg": "flags/PE.svg"
+    },
+    "capital": "Lima",
+    "region": "Americas",
+    "subregion": "South America",
+    "tld": ".pe"
+  },
+  {
+    "cca2": "IE",
+    "cca3": "IRL",
+    "ccn3": "372",
+    "name": "Ireland",
+    "native_name": "Éire",
+    "calling_code": "+353",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ga",
+        "name": "Irish"
+      }
+    ],
+    "flag": {
+      "emoji": "🇮🇪",
+      "svg": "flags/IE.svg"
+    },
+    "capital": "Dublin",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "tld": ".ie"
+  },
+  {
+    "cca2": "KE",
+    "cca3": "KEN",
+    "ccn3": "404",
+    "name": "Kenya",
+    "native_name": "Kenya",
+    "calling_code": "+254",
+    "currency": [
+      {
+        "code": "KES",
+        "name": "Kenyan Shilling",
+        "symbol": "Sh"
+      }
+    ],
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "sw",
+        "name": "Swahili"
+      }
+    ],
+    "flag": {
+      "emoji": "🇰🇪",
+      "svg": "flags/KE.svg"
+    },
+    "capital": "Nairobi",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "tld": ".ke"
+  },
+  {
+    "cca2": "UA",
+    "cca3": "UKR",
+    "ccn3": "804",
+    "name": "Ukraine",
+    "native_name": "Україна",
+    "calling_code": "+380",
+    "currency": [
+      {
+        "code": "UAH",
+        "name": "Ukrainian Hryvnia",
+        "symbol": "₴"
+      }
+    ],
+    "languages": [
+      {
+        "code": "uk",
+        "name": "Ukrainian"
+      }
+    ],
+    "flag": {
+      "emoji": "🇺🇦",
+      "svg": "flags/UA.svg"
+    },
+    "capital": "Kyiv",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "tld": ".ua"
+  },
+  {
+    "cca2": "RO",
+    "cca3": "ROU",
+    "ccn3": "642",
+    "name": "Romania",
+    "native_name": "România",
+    "calling_code": "+40",
+    "currency": [
+      {
+        "code": "RON",
+        "name": "Romanian Leu",
+        "symbol": "lei"
+      }
+    ],
+    "languages": [
+      {
+        "code": "ro",
+        "name": "Romanian"
+      }
+    ],
+    "flag": {
+      "emoji": "🇷🇴",
+      "svg": "flags/RO.svg"
+    },
+    "capital": "Bucharest",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "tld": ".ro"
+  },
+  {
+    "cca2": "CZ",
+    "cca3": "CZE",
+    "ccn3": "203",
+    "name": "Czech Republic",
+    "native_name": "Česko",
+    "calling_code": "+420",
+    "currency": [
+      {
+        "code": "CZK",
+        "name": "Czech Koruna",
+        "symbol": "Kč"
+      }
+    ],
+    "languages": [
+      {
+        "code": "cs",
+        "name": "Czech"
+      }
+    ],
+    "flag": {
+      "emoji": "🇨🇿",
+      "svg": "flags/CZ.svg"
+    },
+    "capital": "Prague",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "tld": ".cz"
+  },
+  {
+    "cca2": "HU",
+    "cca3": "HUN",
+    "ccn3": "348",
+    "name": "Hungary",
+    "native_name": "Magyarország",
+    "calling_code": "+36",
+    "currency": [
+      {
+        "code": "HUF",
+        "name": "Hungarian Forint",
+        "symbol": "Ft"
+      }
+    ],
+    "languages": [
+      {
+        "code": "hu",
+        "name": "Hungarian"
+      }
+    ],
+    "flag": {
+      "emoji": "🇭🇺",
+      "svg": "flags/HU.svg"
+    },
+    "capital": "Budapest",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "tld": ".hu"
+  },
+  {
+    "cca2": "BG",
+    "cca3": "BGR",
+    "ccn3": "100",
+    "name": "Bulgaria",
+    "native_name": "България",
+    "calling_code": "+359",
+    "currency": [
+      {
+        "code": "BGN",
+        "name": "Bulgarian Lev",
+        "symbol": "лв"
+      }
+    ],
+    "languages": [
+      {
+        "code": "bg",
+        "name": "Bulgarian"
+      }
+    ],
+    "flag": {
+      "emoji": "🇧🇬",
+      "svg": "flags/BG.svg"
+    },
+    "capital": "Sofia",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "tld": ".bg"
+  },
+  {
+    "cca2": "HR",
+    "cca3": "HRV",
+    "ccn3": "191",
+    "name": "Croatia",
+    "native_name": "Hrvatska",
+    "calling_code": "+385",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "code": "hr",
+        "name": "Croatian"
+      }
+    ],
+    "flag": {
+      "emoji": "🇭🇷",
+      "svg": "flags/HR.svg"
+    },
+    "capital": "Zagreb",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "tld": ".hr"
+  },
+  {
+    "cca2": "RS",
+    "cca3": "SRB",
+    "ccn3": "688",
+    "name": "Serbia",
+    "native_name": "Србија",
+    "calling_code": "+381",
+    "currency": [
+      {
+        "code": "RSD",
+        "name": "Serbian Dinar",
+        "symbol": "дин"
+      }
+    ],
+    "languages": [
+      {
+        "code": "sr",
+        "name": "Serbian"
+      }
+    ],
+    "flag": {
+      "emoji": "🇷🇸",
+      "svg": "flags/RS.svg"
+    },
+    "capital": "Belgrade",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "tld": ".rs"
+  },
+  {
+    "cca2": "SK",
+    "cca3": "SVK",
+    "ccn3": "703",
+    "name": "Slovakia",
+    "native_name": "Slovensko",
+    "calling_code": "+421",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "code": "sk",
+        "name": "Slovak"
+      }
+    ],
+    "flag": {
+      "emoji": "🇸🇰",
+      "svg": "flags/SK.svg"
+    },
+    "capital": "Bratislava",
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "tld": ".sk"
+  },
+  {
+    "cca2": "LT",
+    "cca3": "LTU",
+    "ccn3": "440",
+    "name": "Lithuania",
+    "native_name": "Lietuva",
+    "calling_code": "+370",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "code": "lt",
+        "name": "Lithuanian"
+      }
+    ],
+    "flag": {
+      "emoji": "🇱🇹",
+      "svg": "flags/LT.svg"
+    },
+    "capital": "Vilnius",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "tld": ".lt"
+  },
+  {
+    "cca2": "LV",
+    "cca3": "LVA",
+    "ccn3": "428",
+    "name": "Latvia",
+    "native_name": "Latvija",
+    "calling_code": "+371",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "code": "lv",
+        "name": "Latvian"
+      }
+    ],
+    "flag": {
+      "emoji": "🇱🇻",
+      "svg": "flags/LV.svg"
+    },
+    "capital": "Riga",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "tld": ".lv"
+  },
+  {
+    "cca2": "EE",
+    "cca3": "EST",
+    "ccn3": "233",
+    "name": "Estonia",
+    "native_name": "Eesti",
+    "calling_code": "+372",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "code": "et",
+        "name": "Estonian"
+      }
+    ],
+    "flag": {
+      "emoji": "🇪🇪",
+      "svg": "flags/EE.svg"
+    },
+    "capital": "Tallinn",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "tld": ".ee"
+  },
+  {
+    "cca2": "IS",
+    "cca3": "ISL",
+    "ccn3": "352",
+    "name": "Iceland",
+    "native_name": "Ísland",
+    "calling_code": "+354",
+    "currency": [
+      {
+        "code": "ISK",
+        "name": "Icelandic Króna",
+        "symbol": "kr"
+      }
+    ],
+    "languages": [
+      {
+        "code": "is",
+        "name": "Icelandic"
+      }
+    ],
+    "flag": {
+      "emoji": "🇮🇸",
+      "svg": "flags/IS.svg"
+    },
+    "capital": "Reykjavik",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "tld": ".is"
+  },
+  {
+    "cca2": "LU",
+    "cca3": "LUX",
+    "ccn3": "442",
+    "name": "Luxembourg",
+    "native_name": "Luxembourg",
+    "calling_code": "+352",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "code": "fr",
+        "name": "French"
+      },
+      {
+        "code": "de",
+        "name": "German"
+      }
+    ],
+    "flag": {
+      "emoji": "🇱🇺",
+      "svg": "flags/LU.svg"
+    },
+    "capital": "Luxembourg",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "tld": ".lu"
+  },
+  {
+    "cca2": "HK",
+    "cca3": "HKG",
+    "ccn3": "344",
+    "name": "Hong Kong",
+    "native_name": "香港",
+    "calling_code": "+852",
+    "currency": [
+      {
+        "code": "HKD",
+        "name": "Hong Kong Dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "code": "zh",
+        "name": "Chinese"
+      },
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "flag": {
+      "emoji": "🇭🇰",
+      "svg": "flags/HK.svg"
+    },
+    "capital": "Hong Kong",
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "tld": ".hk"
+  },
+  {
+    "cca2": "TW",
+    "cca3": "TWN",
+    "ccn3": "158",
+    "name": "Taiwan",
+    "native_name": "台灣",
+    "calling_code": "+886",
+    "currency": [
+      {
+        "code": "TWD",
+        "name": "New Taiwan Dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "flag": {
+      "emoji": "🇹🇼",
+      "svg": "flags/TW.svg"
+    },
+    "capital": "Taipei",
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "tld": ".tw"
+  },
+  {
+    "cca2": "NP",
+    "cca3": "NPL",
+    "ccn3": "524",
+    "name": "Nepal",
+    "native_name": "नेपाल",
+    "calling_code": "+977",
+    "currency": [
+      {
+        "code": "NPR",
+        "name": "Nepalese Rupee",
+        "symbol": "₨"
+      }
+    ],
+    "languages": [
+      {
+        "code": "ne",
+        "name": "Nepali"
+      }
+    ],
+    "flag": {
+      "emoji": "🇳🇵",
+      "svg": "flags/NP.svg"
+    },
+    "capital": "Kathmandu",
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "tld": ".np"
+  },
+  {
+    "cca2": "LK",
+    "cca3": "LKA",
+    "ccn3": "144",
+    "name": "Sri Lanka",
+    "native_name": "ශ්‍රී ලංකා",
+    "calling_code": "+94",
+    "currency": [
+      {
+        "code": "LKR",
+        "name": "Sri Lankan Rupee",
+        "symbol": "Rs"
+      }
+    ],
+    "languages": [
+      {
+        "code": "si",
+        "name": "Sinhala"
+      },
+      {
+        "code": "ta",
+        "name": "Tamil"
+      }
+    ],
+    "flag": {
+      "emoji": "🇱🇰",
+      "svg": "flags/LK.svg"
+    },
+    "capital": "Colombo",
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "tld": ".lk"
+  },
+  {
+    "cca2": "MM",
+    "cca3": "MMR",
+    "ccn3": "104",
+    "name": "Myanmar",
+    "native_name": "မြန်မာ",
+    "calling_code": "+95",
+    "currency": [
+      {
+        "code": "MMK",
+        "name": "Myanmar Kyat",
+        "symbol": "Ks"
+      }
+    ],
+    "languages": [
+      {
+        "code": "my",
+        "name": "Burmese"
+      }
+    ],
+    "flag": {
+      "emoji": "🇲🇲",
+      "svg": "flags/MM.svg"
+    },
+    "capital": "Naypyidaw",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "tld": ".mm"
+  },
+  {
+    "cca2": "KH",
+    "cca3": "KHM",
+    "ccn3": "116",
+    "name": "Cambodia",
+    "native_name": "កម្ពុជា",
+    "calling_code": "+855",
+    "currency": [
+      {
+        "code": "KHR",
+        "name": "Cambodian Riel",
+        "symbol": "៛"
+      }
+    ],
+    "languages": [
+      {
+        "code": "km",
+        "name": "Khmer"
+      }
+    ],
+    "flag": {
+      "emoji": "🇰🇭",
+      "svg": "flags/KH.svg"
+    },
+    "capital": "Phnom Penh",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "tld": ".kh"
+  },
+  {
+    "cca2": "LA",
+    "cca3": "LAO",
+    "ccn3": "418",
+    "name": "Laos",
+    "native_name": "ລາວ",
+    "calling_code": "+856",
+    "currency": [
+      {
+        "code": "LAK",
+        "name": "Lao Kip",
+        "symbol": "₭"
+      }
+    ],
+    "languages": [
+      {
+        "code": "lo",
+        "name": "Lao"
+      }
+    ],
+    "flag": {
+      "emoji": "🇱🇦",
+      "svg": "flags/LA.svg"
+    },
+    "capital": "Vientiane",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "tld": ".la"
+  },
+  {
+    "cca2": "KW",
+    "cca3": "KWT",
+    "ccn3": "414",
+    "name": "Kuwait",
+    "native_name": "الكويت",
+    "calling_code": "+965",
+    "currency": [
+      {
+        "code": "KWD",
+        "name": "Kuwaiti Dinar",
+        "symbol": "د.ك"
+      }
+    ],
+    "languages": [
+      {
+        "code": "ar",
+        "name": "Arabic"
+      }
+    ],
+    "flag": {
+      "emoji": "🇰🇼",
+      "svg": "flags/KW.svg"
+    },
+    "capital": "Kuwait City",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "tld": ".kw"
+  },
+  {
+    "cca2": "QA",
+    "cca3": "QAT",
+    "ccn3": "634",
+    "name": "Qatar",
+    "native_name": "قطر",
+    "calling_code": "+974",
+    "currency": [
+      {
+        "code": "QAR",
+        "name": "Qatari Riyal",
+        "symbol": "ر.ق"
+      }
+    ],
+    "languages": [
+      {
+        "code": "ar",
+        "name": "Arabic"
+      }
+    ],
+    "flag": {
+      "emoji": "🇶🇦",
+      "svg": "flags/QA.svg"
+    },
+    "capital": "Doha",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "tld": ".qa"
+  },
+  {
+    "cca2": "BH",
+    "cca3": "BHR",
+    "ccn3": "048",
+    "name": "Bahrain",
+    "native_name": "البحرين",
+    "calling_code": "+973",
+    "currency": [
+      {
+        "code": "BHD",
+        "name": "Bahraini Dinar",
+        "symbol": "ب.د"
+      }
+    ],
+    "languages": [
+      {
+        "code": "ar",
+        "name": "Arabic"
+      }
+    ],
+    "flag": {
+      "emoji": "🇧🇭",
+      "svg": "flags/BH.svg"
+    },
+    "capital": "Manama",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "tld": ".bh"
+  },
+  {
+    "cca2": "OM",
+    "cca3": "OMN",
+    "ccn3": "512",
+    "name": "Oman",
+    "native_name": "عمان",
+    "calling_code": "+968",
+    "currency": [
+      {
+        "code": "OMR",
+        "name": "Omani Rial",
+        "symbol": "ر.ع"
+      }
+    ],
+    "languages": [
+      {
+        "code": "ar",
+        "name": "Arabic"
+      }
+    ],
+    "flag": {
+      "emoji": "🇴🇲",
+      "svg": "flags/OM.svg"
+    },
+    "capital": "Muscat",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "tld": ".om"
+  },
+  {
+    "cca2": "JO",
+    "cca3": "JOR",
+    "ccn3": "400",
+    "name": "Jordan",
+    "native_name": "الأردن",
+    "calling_code": "+962",
+    "currency": [
+      {
+        "code": "JOD",
+        "name": "Jordanian Dinar",
+        "symbol": "د.ا"
+      }
+    ],
+    "languages": [
+      {
+        "code": "ar",
+        "name": "Arabic"
+      }
+    ],
+    "flag": {
+      "emoji": "🇯🇴",
+      "svg": "flags/JO.svg"
+    },
+    "capital": "Amman",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "tld": ".jo"
+  },
+  {
+    "cca2": "LB",
+    "cca3": "LBN",
+    "ccn3": "422",
+    "name": "Lebanon",
+    "native_name": "لبنان",
+    "calling_code": "+961",
+    "currency": [
+      {
+        "code": "LBP",
+        "name": "Lebanese Pound",
+        "symbol": "ل.ل"
+      }
+    ],
+    "languages": [
+      {
+        "code": "ar",
+        "name": "Arabic"
+      }
+    ],
+    "flag": {
+      "emoji": "🇱🇧",
+      "svg": "flags/LB.svg"
+    },
+    "capital": "Beirut",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "tld": ".lb"
+  },
+  {
+    "cca2": "MA",
+    "cca3": "MAR",
+    "ccn3": "504",
+    "name": "Morocco",
+    "native_name": "المغرب",
+    "calling_code": "+212",
+    "currency": [
+      {
+        "code": "MAD",
+        "name": "Moroccan Dirham",
+        "symbol": "د.م."
+      }
+    ],
+    "languages": [
+      {
+        "code": "ar",
+        "name": "Arabic"
+      }
+    ],
+    "flag": {
+      "emoji": "🇲🇦",
+      "svg": "flags/MA.svg"
+    },
+    "capital": "Rabat",
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "tld": ".ma"
+  },
+  {
+    "cca2": "DZ",
+    "cca3": "DZA",
+    "ccn3": "012",
+    "name": "Algeria",
+    "native_name": "الجزائر",
+    "calling_code": "+213",
+    "currency": [
+      {
+        "code": "DZD",
+        "name": "Algerian Dinar",
+        "symbol": "د.ج"
+      }
+    ],
+    "languages": [
+      {
+        "code": "ar",
+        "name": "Arabic"
+      }
+    ],
+    "flag": {
+      "emoji": "🇩🇿",
+      "svg": "flags/DZ.svg"
+    },
+    "capital": "Algiers",
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "tld": ".dz"
+  },
+  {
+    "cca2": "TN",
+    "cca3": "TUN",
+    "ccn3": "788",
+    "name": "Tunisia",
+    "native_name": "تونس",
+    "calling_code": "+216",
+    "currency": [
+      {
+        "code": "TND",
+        "name": "Tunisian Dinar",
+        "symbol": "د.ت"
+      }
+    ],
+    "languages": [
+      {
+        "code": "ar",
+        "name": "Arabic"
+      }
+    ],
+    "flag": {
+      "emoji": "🇹🇳",
+      "svg": "flags/TN.svg"
+    },
+    "capital": "Tunis",
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "tld": ".tn"
+  },
+  {
+    "cca2": "GH",
+    "cca3": "GHA",
+    "ccn3": "288",
+    "name": "Ghana",
+    "native_name": "Ghana",
+    "calling_code": "+233",
+    "currency": [
+      {
+        "code": "GHS",
+        "name": "Ghanaian Cedi",
+        "symbol": "₵"
+      }
+    ],
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "flag": {
+      "emoji": "🇬🇭",
+      "svg": "flags/GH.svg"
+    },
+    "capital": "Accra",
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "tld": ".gh"
+  },
+  {
+    "cca2": "ET",
+    "cca3": "ETH",
+    "ccn3": "231",
+    "name": "Ethiopia",
+    "native_name": "ኢትዮጵያ",
+    "calling_code": "+251",
+    "currency": [
+      {
+        "code": "ETB",
+        "name": "Ethiopian Birr",
+        "symbol": "Br"
+      }
+    ],
+    "languages": [
+      {
+        "code": "am",
+        "name": "Amharic"
+      }
+    ],
+    "flag": {
+      "emoji": "🇪🇹",
+      "svg": "flags/ET.svg"
+    },
+    "capital": "Addis Ababa",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "tld": ".et"
+  },
+  {
+    "cca2": "TZ",
+    "cca3": "TZA",
+    "ccn3": "834",
+    "name": "Tanzania",
+    "native_name": "Tanzania",
+    "calling_code": "+255",
+    "currency": [
+      {
+        "code": "TZS",
+        "name": "Tanzanian Shilling",
+        "symbol": "Sh"
+      }
+    ],
+    "languages": [
+      {
+        "code": "sw",
+        "name": "Swahili"
+      },
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "flag": {
+      "emoji": "🇹🇿",
+      "svg": "flags/TZ.svg"
+    },
+    "capital": "Dodoma",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "tld": ".tz"
+  },
+  {
+    "cca2": "UG",
+    "cca3": "UGA",
+    "ccn3": "800",
+    "name": "Uganda",
+    "native_name": "Uganda",
+    "calling_code": "+256",
+    "currency": [
+      {
+        "code": "UGX",
+        "name": "Ugandan Shilling",
+        "symbol": "Sh"
+      }
+    ],
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "sw",
+        "name": "Swahili"
+      }
+    ],
+    "flag": {
+      "emoji": "🇺🇬",
+      "svg": "flags/UG.svg"
+    },
+    "capital": "Kampala",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "tld": ".ug"
+  },
+  {
+    "cca2": "VE",
+    "cca3": "VEN",
+    "ccn3": "862",
+    "name": "Venezuela",
+    "native_name": "Venezuela",
+    "calling_code": "+58",
+    "currency": [
+      {
+        "code": "VES",
+        "name": "Venezuelan Bolívar",
+        "symbol": "Bs."
+      }
+    ],
+    "languages": [
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "flag": {
+      "emoji": "🇻🇪",
+      "svg": "flags/VE.svg"
+    },
+    "capital": "Caracas",
+    "region": "Americas",
+    "subregion": "South America",
+    "tld": ".ve"
+  },
+  {
+    "cca2": "EC",
+    "cca3": "ECU",
+    "ccn3": "218",
+    "name": "Ecuador",
+    "native_name": "Ecuador",
+    "calling_code": "+593",
+    "currency": [
+      {
+        "code": "USD",
+        "name": "United States Dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "flag": {
+      "emoji": "🇪🇨",
+      "svg": "flags/EC.svg"
+    },
+    "capital": "Quito",
+    "region": "Americas",
+    "subregion": "South America",
+    "tld": ".ec"
+  },
+  {
+    "cca2": "UY",
+    "cca3": "URY",
+    "ccn3": "858",
+    "name": "Uruguay",
+    "native_name": "Uruguay",
+    "calling_code": "+598",
+    "currency": [
+      {
+        "code": "UYU",
+        "name": "Uruguayan Peso",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "flag": {
+      "emoji": "🇺🇾",
+      "svg": "flags/UY.svg"
+    },
+    "capital": "Montevideo",
+    "region": "Americas",
+    "subregion": "South America",
+    "tld": ".uy"
+  },
+  {
+    "cca2": "CR",
+    "cca3": "CRI",
+    "ccn3": "188",
+    "name": "Costa Rica",
+    "native_name": "Costa Rica",
+    "calling_code": "+506",
+    "currency": [
+      {
+        "code": "CRC",
+        "name": "Costa Rican Colón",
+        "symbol": "₡"
+      }
+    ],
+    "languages": [
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "flag": {
+      "emoji": "🇨🇷",
+      "svg": "flags/CR.svg"
+    },
+    "capital": "San José",
+    "region": "Americas",
+    "subregion": "Central America",
+    "tld": ".cr"
+  },
+  {
+    "cca2": "PA",
+    "cca3": "PAN",
+    "ccn3": "591",
+    "name": "Panama",
+    "native_name": "Panamá",
+    "calling_code": "+507",
+    "currency": [
+      {
+        "code": "PAB",
+        "name": "Panamanian Balboa",
+        "symbol": "B/."
+      },
+      {
+        "code": "USD",
+        "name": "United States Dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "flag": {
+      "emoji": "🇵🇦",
+      "svg": "flags/PA.svg"
+    },
+    "capital": "Panama City",
+    "region": "Americas",
+    "subregion": "Central America",
+    "tld": ".pa"
+  },
+  {
+    "cca2": "GT",
+    "cca3": "GTM",
+    "ccn3": "320",
+    "name": "Guatemala",
+    "native_name": "Guatemala",
+    "calling_code": "+502",
+    "currency": [
+      {
+        "code": "GTQ",
+        "name": "Guatemalan Quetzal",
+        "symbol": "Q"
+      }
+    ],
+    "languages": [
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "flag": {
+      "emoji": "🇬🇹",
+      "svg": "flags/GT.svg"
+    },
+    "capital": "Guatemala City",
+    "region": "Americas",
+    "subregion": "Central America",
+    "tld": ".gt"
+  },
+  {
+    "cca2": "DO",
+    "cca3": "DOM",
+    "ccn3": "214",
+    "name": "Dominican Republic",
+    "native_name": "República Dominicana",
+    "calling_code": "+1-809",
+    "currency": [
+      {
+        "code": "DOP",
+        "name": "Dominican Peso",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "flag": {
+      "emoji": "🇩🇴",
+      "svg": "flags/DO.svg"
+    },
+    "capital": "Santo Domingo",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "tld": ".do"
+  },
+  {
+    "cca2": "JM",
+    "cca3": "JAM",
+    "ccn3": "388",
+    "name": "Jamaica",
+    "native_name": "Jamaica",
+    "calling_code": "+1-876",
+    "currency": [
+      {
+        "code": "JMD",
+        "name": "Jamaican Dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "flag": {
+      "emoji": "🇯🇲",
+      "svg": "flags/JM.svg"
+    },
+    "capital": "Kingston",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "tld": ".jm"
+  }
+]

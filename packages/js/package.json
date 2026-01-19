@@ -1,0 +1,52 @@
+{
+  "name": "countrykit",
+  "version": "1.0.0",
+  "description": "Open-source dataset of countries + ISO codes + phone codes + flags + currencies + languages in clean, universal formats",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "cd ../.. && node test.js && node test-package.js",
+    "validate": "cd ../.. && node scripts/validate.js",
+    "build": "cd ../.. && node scripts/auto-generate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ProgrammerNomad/CountryKit.git"
+  },
+  "keywords": [
+    "countries",
+    "iso",
+    "iso-3166",
+    "country-codes",
+    "phone-codes",
+    "calling-codes",
+    "currencies",
+    "iso-4217",
+    "languages",
+    "iso-639",
+    "flags",
+    "country-data",
+    "country-picker",
+    "dropdown",
+    "geo",
+    "geography",
+    "i18n",
+    "internationalization"
+  ],
+  "author": "Shiv Singh <https://github.com/ProgrammerNomad>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ProgrammerNomad/CountryKit/issues"
+  },
+  "homepage": "https://github.com/ProgrammerNomad/CountryKit#readme",
+  "files": [
+    "../../data/",
+    "index.js",
+    "index.d.ts",
+    "../../README.md",
+    "../../LICENSE"
+  ],
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
