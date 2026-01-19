@@ -204,7 +204,7 @@ print(usa['name'])  # "United States"
 
 # Get countries by currency
 usd_countries = countrykit.get_countries_by_currency('USD')
-print(len(usd_countries))  # 3
+print(len(usd_countries))  # 19
 
 # Search countries
 results = countrykit.search_countries('united')
@@ -232,7 +232,7 @@ echo $usa['name'];  // "United States"
 
 // Get countries by language
 $english = CountryKit::getCountriesByLanguage('en');
-echo count($english);  // 18
+echo count($english);  // 179
 
 // Search countries
 $results = CountryKit::searchCountries('united');
